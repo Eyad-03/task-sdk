@@ -1,0 +1,153 @@
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background-color: #041735;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoImg
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.option-list
+{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 30px;
+
+
+}
+
+.option-list a
+{
+    text-decoration: none;
+    color: black;
+    transition: background-color .5s ease, transform .35s ease, box-shadow .35s ease, filter .35s ease;
+        color: white;
+}
+
+.option-list a:hover
+{
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+    background-color: #23B0FF;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+.btn-nav 
+{
+text-decoration: none;
+display: flex;
+gap:20px;
+position: relative;
+right: 20px;
+
+}
+
+.btn-nav a
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    transition: background-color .5s ease, transform .35s ease, box-shadow .35s ease, filter .35s ease;
+}
+
+.btn-nav a:hover
+{
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+    background-color: #23B0FF;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+#product
+{
+    margin-bottom: 100px;
+}
+
+
+#card-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 120px;
+    align-items: center;
+
+
+}
+
+#product-text
+{
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#product-text h1
+{
+    font-weight: 500;
+}
+
+#product-text p
+{
+    color: #797B78;
+}
+
+#card
+{
+    text-align: center;
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    height: 500px;
+    
+
+}
+
+#card img
+{
+    height: 325px;
+    width: 300px;
+
+}
+
+#card p
+{
+    width: 300px;
+
+}
+
+.buy-btn
+{
+    text-decoration: none;
+    background-color: #23B0FF;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    right: 90px;
+
+}

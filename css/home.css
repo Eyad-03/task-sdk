@@ -1,0 +1,200 @@
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    background-color: #041735;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoImg
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.option-list
+{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 30px;
+
+
+}
+
+.option-list a
+{
+    text-decoration: none;
+    color: black;
+    transition: background-color .5s ease, transform .35s ease, box-shadow .35s ease, filter .35s ease;
+        color: white;
+}
+
+.option-list a:hover
+{
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+    background-color: #23B0FF;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+.btn-nav 
+{
+text-decoration: none;
+display: flex;
+gap:20px;
+position: relative;
+right: 20px;
+
+}
+
+.btn-nav a
+{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    transition: background-color .5s ease, transform .35s ease, box-shadow .35s ease, filter .35s ease;
+}
+
+.btn-nav a:hover
+{
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+    background-color: #23B0FF;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+
+/* -----*/
+
+#main
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+}
+
+
+#text-grid h2
+{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#text-grid a
+{
+    text-decoration: none;
+    background-color: #23B0FF;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+#img-grid 
+{
+
+    position: relative;
+    bottom: 150px;
+}
+
+.salad
+{
+    z-index: 2;
+    position: relative;
+    top: 250px;
+    right: 180px;
+
+
+}
+
+.bg
+{
+    z-index: 1;
+    position: absolute;
+    top: 240px;
+    right: 110px;
+    border-radius: 50%;
+    background-color: #041735;
+    width: 500px;
+    height: 500px;
+
+
+}
+
+#popular
+{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+#popular h2
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#popular-img
+{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/*  footer */
+
+#footer
+{
+
+    display: flex;
+    justify-content: space-between;
+    padding:20px 40px;
+    background-color: #041735;
+    margin-top: 200px;
+}
+
+#footer p
+{
+    color: white;
+}
+
+#footer h5
+{
+    color: white;
+}
+
+#footer1 p
+{
+width: 400px;
+}
+
+.icon
+{
+    display: flex;
+    gap: 20px;
+}
+
+.icon svg
+{
+    width: 25px;
+    height: 25px;
+    color: #23B0FF;
+}
