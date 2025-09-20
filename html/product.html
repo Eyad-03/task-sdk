@@ -19,11 +19,17 @@
 <ul class='option-list'>
     <li ><a href="../html/home.html" >Home</a></li>
     <li><a>About</a></li>
-    <li><a to='product'>Product</a></li>
+    <li><a href="../html/product.html">Product</a></li>
 </ul>
+
+
 
 </div>
 
+<form class="search">
+  <input  name="q" type="search" placeholder="Search…" />
+  <button type="submit">Search</button>
+</form>
 
 <div class='btn-nav'>
 
@@ -53,60 +59,89 @@
 
 <div id='card-container'>
 
+  <div class="modal" id="productModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close" aria-label="Close modal">x</button>
+      <h2 id="modalTitle">Product Information</h2>
+      <p>This product is made from high-quality materials. It includes a 1-year warranty and free shipping.</p>
+    </div>
+  </div>
+    
 <div id="card">
 <img src="../image/book1.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 <div id="card">
 <img src="../image/book2.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 <div id="card">
 <img src="../image/book3.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 <div id="card">
 <img src="../image/book4.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 <div id="card">
 <img src="../image/book5.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 <div id="card">
 <img src="../image/book6.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 <div id="card">
 <img src="../image/book7.webp"></img>
 <h5>Careless People</h5>
 <p>Careless People is darkly funny and genuinely shocking...Not only does [Sarah Wynn]</p>
+<div class="product-btn">
 <a href="" class="buy-btn">Buy Book</a>
+<button class="openModal">Details</button>
+</div>
 </div>
 
 </div>
 
 </div>
 
-
+<script src="../js/product.js"></script>
 
     
 </body>
